@@ -2,8 +2,8 @@
 
 A game in which guesses become words!
 
-I'm supposed to be taking breaks every hour, not every fourth.
+For this assignment, I poached material from Ryan North's excellent webcomic. 
+The user is to guess words based on what I assume is their deep familiarity with this topic.
 
-HA. Javascript. I'ma slap you.
-
-I WIN.
+// I'm having an issue with file extension capitlization in windows 10, which I will conquer
+and bend to my will, shortly. //
