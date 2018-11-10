@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <!--Required meta tags-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+                
+ 
+
+        <title>Dinosaur Guesses</title>
+
+    </head>
+
+        <body>
+            
+            <header id="main-header">
+                <h1>Dinosaur Comics</h1>
+                <span>A Word Guessing Game</span>
+            </header>
+
+            <!--main content div-->
+
+            <div class="container">
+
+                <!--player input div-->
+
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <section class="col-12 col-lg-8" id="section-block">
+                        <header>
+                            <h2>Guess The Word, Chump</h2>
+                        </header>
+                        <p id="instructions">Enter any letter to start !</p>
+                        <div class="mobileInput">
+                            <input type="text" id="textInput" value="">
+                        </div>
+                        <p id="message">Are You Ready?</p>
+                        <p id="userAnswer">_ _ _ B E G I N _ _ _</p>
+                        <p id="userGuess">You Guessed: </p>
+                    </section>
+                </div>
+
+                <!--results output div-->
+
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <aside class="col-6 col-lg-4" id="aside-block">
+                        <header>
+                            <h3>Final Tally</h3>
+                        </header>
+                        <p>Successes (luck): <span id="win">0</span></p>
+                        <p>Ridiculous Failures: <span id="lose">0</span></p>
+                        <p>Attempts Remaining: <span id="tries">10</span></p>
+                    </aside>
+                    <div class="col-6 col-lg-4" id="img-container">
+                        <img src="assets/images/T-Rex.png" alt="img" class="img-fluid" id="picture">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--footer inside of body, ANDREW (geez)-->
+
+            <footer>
+                <span>&copy; Copyright 2018 | Robert Tarkenton | Totally stolen from qwantz.com | Copyright therefor void</span>
+            </footer>
+
+        <!--link to javascript-->
+
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+        </body>
+
+</html>
