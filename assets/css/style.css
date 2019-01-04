@@ -1,10 +1,10 @@
 /*element css*/
 html, body{
-    background-image: url("../images/rhamphorhynchus.png");
+    background-image: url("../images/rhamphorhynchus.png"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 1% 20%; 
-    background-color: black;
+    background-color: rgb(20, 10, 60);
     color: #ffffff;
     margin: 0;
     padding: 0;
