@@ -17,8 +17,8 @@ var gameCore = {
     triesLeft: 10,
     wordList: ['T REX', 'DROMICEIOMIMUS', 'UTAH RAPTOR', 'BATMAN', 'GOD', 'SATAN', 
                 'TINY WOMAN', 'RACCOONS' , 'CEPHALOPODS', 'RYAN NORTH'], //list of words for game
-    imgList: ['T-Rex2.png', 'Dromiceiomimus.png', 'Utah-Raptor.png', 'Batman.jpg', 'God.jpg', 
-                'Satan.jpg', 'Tiny-Woman.png', 'Raccoons.jpg', 'Cephalopods.jpg', 'Ryan-North.jpg'], //list image reference
+    imgList: ['T-Rex2.jpg', 'Dromiceiomimus.jpg', 'Utah-Raptor.jpg', 'Batman.jpg', 'God.jpg', 
+                'Satan.jpg', 'Tiny-Woman.jpg', 'Raccoons.jpg', 'Cephalopods.jpg', 'Ryan-North.jpg'], //list image reference
     answers: "",
     imageSrc: "",
     displayWord: [], //empty list to display word as '_' and to compare with answers
